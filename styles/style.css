@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FontePadrão';
+  src: url('../assets/fonts/static/DMSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'FontePadrão';
+    
+}
+
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+div#conteiner {
+    display: grid;
+    justify-content: center;
+}
+
+div.items {
+    width: 350px;
+    height: 300px;
+    background-color: blue;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+div#item1 {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 30px;
+    background-color: hsl(256, 67%, 59%);
+}
+
+div#item1 > h1 {
+    font-size: 2.7em;
+    line-height: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div#item1 > h1 > strong {
+    color: hsl(39, 100%, 71%);
+}
+
+div#item1 > img {
+    width: 200px;
+}
+
+div#item2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 0.8em;
+    height: 170px;
+}
+
+div#item2 > img {
+    width: 330px;
+}
+
+div#item3 {
+    background-color: hsl(39, 100%, 71%);
+    color: black;
+    height: 225px;
+    font-size: 0.8em;
+    padding: 15px;
+}
+
+div#item3 > img {
+    margin-top: 10px;
+    width: 200px;
+}
+
+div#item4 {
+    background-color: hsl(254, 88%, 90%);
+    color: black;
+    height: 470px;
+    text-align: center;
+
+}
+
+div#item4 > h1 {
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+div#item4 > img {
+    width: 300px;
+}
+
+div#item4 > p {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+div#item5 {
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 370px;
+
+}
+
+div#item5 > img {
+    width: 250px;
+}
+
+div#item5 > p {
+    margin-top: 30px;
+    font-size: 1.6em;
+}
+
+div#item6 {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    padding: 20px;
+    height: 220px;
+}
+
+div#item6 > p {
+    font-size: 1.1em;
+}
+
+div#item6 > p > strong {
+    font-size: 2.2em;
+}
+
+div#item6 > img {
+    margin-top: 25px;
+    width: 200px;
+}
+
+div#item7 {
+    background-color: hsl(31, 66%, 93%);
+    color: black;
+    padding: 20px;
+    height: 220px;
+}
+
+div#item7 > p {
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+div#item7 > p > i{
+    color: hsl(256, 67%, 59%);
+}
+
+div#item7 > img {
+    width: 200px;
+    margin: 20px;
+}
+
+div#item8 {
+    background-color: hsl(39, 100%, 71%);
+    color: black;
+    padding: 23px;
+    height: 340px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+div#item8 > img {
+    width: 200px;
+    margin: 20px;
+}
+
+div.attribution {
+    margin-bottom: 16px;
+}
